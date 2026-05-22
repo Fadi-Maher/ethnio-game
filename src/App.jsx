@@ -16,8 +16,8 @@ function App() {
  
   
 useEffect(() => {
-  if (countTony === 10 || countFady === 10) {
-    setWinner(countFady === 10 ? "Fady" : "Tony");
+  if (countTony === 20 || countFady === 20) {
+    setWinner(countFady === 20 ? "Fady" : "Tony");
   }
 }, [countTony, countFady]);
 
